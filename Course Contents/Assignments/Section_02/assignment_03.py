@@ -13,9 +13,26 @@ original_list = ['cup', 'cereal', 'milk', (8, 4, 3)]
 
 # your code below:
 
+# Take everything except the last item, then add a new sorted tuple
+new_list = original_list[:-1] + [tuple(sorted(original_list[-1]))]
+
+print(new_list)
+# Output: ['cup', 'cereal', 'milk', (3, 4, 8)]
 
 
+"""
+Explanation:
 
+original_list[:-1] → slice gives ['cup', 'cereal', 'milk'].
+
+original_list[-1] → gets the tuple (8, 4, 3).
+
+sorted(original_list[-1]) → returns [3, 4, 8] (new list).
+
+tuple(...) → converts it to (3, 4, 8).
+
++ [new_tuple] → concatenates to create a completely new list.
+"""
 
 
 
