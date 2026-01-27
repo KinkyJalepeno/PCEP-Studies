@@ -84,4 +84,45 @@ def print_nested_dict(d, indent=0):
 
 print_nested_dict(person)
 
+#More basics
+
+# Example dictionary
+d = {'name': 'Alice', 'age': 30, 'city': 'London'}
+
+# .get(key, default) - Safely get a value; returns default if key doesn't exist
+print(d.get('name'))        # Output: Alice
+print(d.get('email', 'N/A'))  # Output: N/A
+
+# .keys() - Returns a view of all keys
+print(list(d.keys()))       # Output: ['name', 'age', 'city']
+
+# .values() - Returns a view of all values
+print(list(d.values()))     # Output: ['Alice', 30, 'London']
+
+# .items() - Returns a view of (key, value) pairs
+print(list(d.items()))      # Output: [('name', 'Alice'), ('age', 30), ('city', 'London')]
+
+# .update(other_dict) - Merge another dictionary (or iterable) into this one
+d.update({'age': 31, 'email': 'alice@example.com'})
+print(d)                    # Output: {'name': 'Alice', 'age': 31, 'city': 'London', 'email': 'alice@example.com'}
+
+# .pop(key, default) - Remove and return value for key; optional default if missing
+age = d.pop('age')
+print(age)                  # Output: 31
+print(d.pop('country', 'Unknown'))  # Output: Unknown
+
+# .popitem() - Remove and return the last inserted item (LIFO in Python 3.7+)
+item = d.popitem()
+print(item)                 # Output: ('email', 'alice@example.com')
+
+# .clear() - Remove all items
+d.clear()
+print(d)                    # Output: {}
+
+# {.setdefault(key, default) - Return value if key exists, else insert default
+d = {'name': 'Alice'}
+print(d.setdefault('name', 'Bob'))   # Output: Alice
+print(d.setdefault('age', 25))       # Output: 25 (and adds 'age': 25)
+
+
 

@@ -21,7 +21,7 @@ lst.sort()                  # [10, 10, 20, 30] also words on strings
 lst.reverse()               # [30, 20, 10, 10] also words on strings
 new = lst.copy()            # shallow copy
 
-lst[0]: list = 'word'           # assign word to index 0
+lst[0] = 'word'           # assign word to index 0
 print(lst)
 
 # LISTS CAN BE SLICED LIKE STRINGS !!

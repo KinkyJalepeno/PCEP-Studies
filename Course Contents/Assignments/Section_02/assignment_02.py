@@ -43,7 +43,11 @@ for name, details in Person.items():
         print(f"    - {item}")
     print("-" * 20)  # optional separator line for clarity
 
+# A cute little way of listing everything
 
+print("Keys:", list(Person.keys()))
+print("Values:", list(Person.values()))
+print("Items:", list(Person.items()))
 
 
 
