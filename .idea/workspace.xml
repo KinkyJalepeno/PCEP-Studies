@@ -4,17 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07dde6ad-1f03-44a6-9d25-3973c6c927fd" name="Changes" comment="Completed 4 assignments">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="07dde6ad-1f03-44a6-9d25-3973c6c927fd" name="Changes" comment="Completed Dictionary section and all coding challenges">
+      <change afterPath="$PROJECT_DIR$/Course Contents/Functions/Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course Contents/Functions/args n kwargs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course Contents/Functions/function_lore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course Contents/Functions/help function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Course Contents/Assignments/Section_02/assignment_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course Contents/Assignments/Section_02/assignment_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course Contents/Assignments/Section_01/assignment_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course Contents/Assignments/Section_01/assignment_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course Contents/Assignments/Section_03/assignment_05.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Course Contents/collections/dictionaries/Dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course Contents/collections/dictionaries/Dictionaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Course Contents/collections/list/all list methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course Contents/collections/list/all list methods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,27 +49,36 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="38nLdoyNJ4O4TIqxOv6iBhnrmkF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-stale.python.version&quot;: &quot;Python versions compatibility&quot;,
-    &quot;Notification.DoNotAsk-stale.python.version&quot;: &quot;true&quot;,
-    &quot;Python.assignment_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.assignment_02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.assignment_03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.assignment_04.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Python Projects/PCEP Studies/Course Contents/Assignments&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-stale.python.version": "Python versions compatibility",
+    "Notification.DoNotAsk-stale.python.version": "true",
+    "Python.Test.executor": "Run",
+    "Python.args n kwargs.executor": "Run",
+    "Python.assignment_01.executor": "Run",
+    "Python.assignment_02.executor": "Run",
+    "Python.assignment_03.executor": "Run",
+    "Python.assignment_04.executor": "Run",
+    "Python.assignment_05.executor": "Run",
+    "Python.function_lore.executor": "Run",
+    "Python.help function.executor": "Run",
+    "Python.variable scope.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Python Projects/PCEP Studies/Course Contents/Assignments"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python Projects\PCEP Studies\Course Contents\Assignments" />
@@ -109,12 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769438821021</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completed Dictionary section and all coding challenges">
+      <option name="closed" value="true" />
+      <created>1769522251014</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769522251014</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit and Collections study complete." />
     <MESSAGE value="Completed 4 assignments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed 4 assignments" />
+    <MESSAGE value="Completed Dictionary section and all coding challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Dictionary section and all coding challenges" />
   </component>
 </project>

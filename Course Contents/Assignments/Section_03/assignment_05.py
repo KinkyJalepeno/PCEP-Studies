@@ -15,7 +15,15 @@ Example:
 
 # Your Code Below:
 
+def key_list_items(key, **kwargs):
+    requested_key = kwargs[key]
+    return requested_key[-2]
 
+result = key_list_items("people", things=['book', 'tv', 'shoes'], people=['pete', 'mike', 'jan', 'tom'],
+                        ages=[20, 30, 40])
+print(result)
+
+# 2nd value in from the end of "people" key is jan
 
 
 

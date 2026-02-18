@@ -25,6 +25,20 @@ word = "Cool"
 result = chars[:2] + word + chars[2:]
 print(result)
 
+"""
+Python string slicing works like this: string[start:end]
+
+chars[:2]
+From the beginning up to (but not including) index 2"
+Takes indices 0 and 1 → "[["
+
+chars[2:]
+From index 2 to the end of the string"
+Takes indices 2 and 3 → "]]"
+
+Then Python does:
+"[[" + "Cool" + "]]"
+"""
 
 
 
